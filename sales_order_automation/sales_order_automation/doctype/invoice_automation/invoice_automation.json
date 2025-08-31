@@ -1,0 +1,108 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{####}-{MM}-{YY}",
+ "creation": "2025-08-30 10:11:15.225445",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "upload_invoice",
+  "section_break_gsor",
+  "image",
+  "column_break_vnwu",
+  "invoice_data",
+  "section_break_f6c8",
+  "process_invoice",
+  "column_break_glgt",
+  "make_invoice",
+  "section_break_nopn",
+  "invoice_automation_child",
+  "section_break_1g3e"
+ ],
+ "fields": [
+  {
+   "fieldname": "upload_invoice",
+   "fieldtype": "Attach",
+   "label": "Upload Invoice"
+  },
+  {
+   "fieldname": "process_invoice",
+   "fieldtype": "Button",
+   "label": "Process Invoice"
+  },
+  {
+   "fieldname": "invoice_data",
+   "fieldtype": "JSON",
+   "label": "Invoice Data"
+  },
+  {
+   "fieldname": "make_invoice",
+   "fieldtype": "Button",
+   "label": "Make Invoice"
+  },
+  {
+   "fieldname": "column_break_vnwu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Image",
+   "label": "Image",
+   "options": "upload_invoice"
+  },
+  {
+   "fieldname": "section_break_gsor",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_f6c8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_glgt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_automation_child",
+   "fieldtype": "Table",
+   "label": "Invoice Automation child",
+   "options": "Invoice Automation child",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_nopn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_1g3e",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-30 23:42:08.481121",
+ "modified_by": "Administrator",
+ "module": "Sales Order Automation",
+ "name": "Invoice Automation",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

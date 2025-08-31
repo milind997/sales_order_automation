@@ -1,8 +1,21 @@
-### Sales Order Automation
+# 🧾 Sales Order Automation
 
-Sales Order Automation
+An AI-powered app for **automating Sales Order creation in Frappe/ERPNext**.  
+Easily convert uploaded invoices into structured data and generate **Sales Orders** and **Sales Invoices** automatically.
 
-### Installation
+---
+
+## 🚀 Features
+
+- Upload invoice files (PDF, JPG, PNG)
+- AI-based document parsing and JSON conversion
+- Automatic creation of **Sales Orders** in ERPNext
+- Automatic creation of **Sales Invoices** linked to Sales Orders
+- Error-free, fast, and integrated into ERPNext workflows
+
+---
+
+## ⚙️ Installation
 
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 
@@ -10,24 +23,3 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 cd $PATH_TO_YOUR_BENCH
 bench get-app $URL_OF_THIS_REPO --branch develop
 bench install-app sales_order_automation
-```
-
-### Contributing
-
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
-
-```bash
-cd apps/sales_order_automation
-pre-commit install
-```
-
-Pre-commit is configured to use the following tools for checking and formatting your code:
-
-- ruff
-- eslint
-- prettier
-- pyupgrade
-
-### License
-
-mit
